@@ -1,0 +1,24 @@
+{
+  "name": "siyuan-moon-export",
+  "version": "1.0.0",
+  "description": "Export SiYuan notes to Markdown with moon brand design",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "author": "月亮老师",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.4",
+    "esbuild-loader": "^4.4.3",
+    "mini-css-extract-plugin": "^2.10.2",
+    "sass": "^1.100.0",
+    "sass-loader": "^17.0.0",
+    "siyuan": "1.2.2",
+    "typescript": "^5.4.0",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3",
+    "zip-webpack-plugin": "^4.0.3"
+  }
+}

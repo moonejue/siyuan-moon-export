@@ -1,0 +1,16 @@
+/**
+ * Moon Export — 月亮老师品牌样式
+ */
+
+.moon-dialog-body::-webkit-scrollbar,
+.moon-doc-list::-webkit-scrollbar { width: 6px; }
+.moon-dialog-body::-webkit-scrollbar-track,
+.moon-doc-list::-webkit-scrollbar-track { background: transparent; }
+.moon-dialog-body::-webkit-scrollbar-thumb,
+.moon-doc-list::-webkit-scrollbar-thumb { background: rgba(169,140,110,.2); border-radius: 3px; }
+
+.moon-dialog-close:hover { background: rgba(169,140,110,.1); color: #675b4c; }
+.moon-btn-export:hover { background: linear-gradient(135deg,#917459,#7d6348); box-shadow: 0 4px 12px rgba(169,140,110,.35); transform: translateY(-1px); }
+.moon-btn-export:active { transform: translateY(0); box-shadow: 0 1px 4px rgba(169,140,110,.2); }
+.moon-search-input:focus { border-color: #a98c6e; box-shadow: 0 0 0 2px rgba(169,140,110,.1); }
+.moon-search-input::placeholder { color: #bcc1b9; }

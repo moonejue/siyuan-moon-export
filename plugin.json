@@ -2,7 +2,7 @@
   "name": "siyuan-moon-export",
   "author": "月亮老师",
   "url": "https://github.com/moonejue/siyuan-moon-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "3.0.0",
   "backends": ["all"],
   "frontends": ["all"],
@@ -17,6 +17,5 @@
   "readme": {
     "default": "README.md"
   },
-  "i18n": ["zh_CN", "en_US"],
   "keywords": ["export", "markdown", "moon", "导出", "备份"]
 }

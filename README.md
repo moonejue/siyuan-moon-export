@@ -1,34 +1,54 @@
 # 月亮导出 · Moon Export
 
-将思源笔记导出为 Markdown 文件，适合整理、备份和迁移个人知识。
+将思源笔记轻轻导出为 Markdown 文件，如月光洒落纸面。
 
 ## 功能
 
-- 单篇导出当前打开的文档
-- 批量选择并导出多篇文档
-- 按标题搜索和筛选文档
-- 可选 YAML Frontmatter
-- 自定义 Markdown 保存目录
-- 自动保留图片引用
-- 简洁的月亮老师品牌风格界面
+- **导出当前文档**：自动识别当前打开的思源文档并导出为 Markdown。
+- **批量导出**：从所有笔记本加载文档，支持一次选择多篇文档导出。
+- **目录级联选择**：按笔记本和目录分组展示，点击目录即可选择或取消该目录下的全部文档。
+- **展开与折叠目录**：目录列表支持折叠，方便在文档较多时快速定位。
+- **全选与取消全选**：批量导出时可以快速调整选择范围。
+- **标题搜索**：按文档标题关键词过滤批量导出列表。
+- **自定义导出路径**：导出到思源工作空间 `data/` 目录下的指定相对路径，支持一键恢复默认路径 `export/markdown`。
+- **Frontmatter**：可选在 Markdown 开头加入标题、创建日期、导出日期和来源信息。
+- **图片引用选项**：可选择在 Markdown 中保留图片引用。
+- **安全的文件名处理**：自动清理文件名中的非法字符，并按 `标题_日期.md` 格式保存。
+- **导出反馈**：导出完成后提示成功数量，并提示失败文档。
+- **月亮品牌界面**：采用温暖、克制的东方美学设计。
 
 ## 使用
 
-1. 在思源顶部工具栏点击月亮图标，或执行“导出笔记为 Markdown”命令。
-2. 选择“当前文档”或“批量导出”。
-3. 设置保存路径和导出选项。
-4. 点击“导出为 Markdown”。
+1. 点击思源顶部工具栏的月亮图标，或使用命令面板中的「导出笔记为 Markdown」。
+2. 在「当前文档」页签导出当前打开的文档，或切换到「批量导出」。
+3. 批量导出时，可搜索标题、展开目录并选择文档，也可以使用全选和取消全选。
+4. 设置 Markdown 保存路径和导出选项。
+5. 点击「导出当前文档」或「批量导出」。
 
-导出的文件会保存到思源工作空间的 `data/` 目录下，默认路径为 `data/export/markdown/`。
+## 导出位置
 
-## Moon Export
+默认导出到：
 
-Moon Export exports SiYuan notes to Markdown files for personal knowledge management, backup, and migration.
+```text
+data/export/markdown/
+```
 
-Features include single-note export, batch export, title search, optional YAML Frontmatter, custom output paths, and image reference preservation.
+导出的文件名格式为：
 
-## License
+```text
+文档标题_YYYY-MM-DD.md
+```
 
-MIT License. See [LICENSE](LICENSE).
+## 说明
+
+- 插件在桌面端显示顶部工具栏入口，移动端不会添加顶部工具栏按钮。
+- 批量文档列表来自当前思源工作空间中的所有笔记本。
+- 导出内容由思源的 Markdown 导出接口生成。
 
 🌙 月亮老师 · 在生活中醒来
+
+## 支持作者
+
+如果这个插件对你有帮助，欢迎赞赏支持后续开发：
+
+![月亮的赞赏码](reward-code.jpg)
